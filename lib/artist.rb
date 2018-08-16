@@ -11,7 +11,7 @@ class Artist
     @songs << song
   end
 
-  def add_song_by_name(song_name)
+  def add_song_by_name(song)
     add_song(song_instance_name)
 
   end
