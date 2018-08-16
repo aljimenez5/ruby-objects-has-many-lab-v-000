@@ -22,7 +22,4 @@ class Artist
     @songs.count
   end
 
-
-
-
 end
