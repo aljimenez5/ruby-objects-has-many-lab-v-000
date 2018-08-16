@@ -8,5 +8,9 @@ class Song
     @@all << title
   end
 
+  def self.all
+    @@all
+  end
+
 
 end
