@@ -23,7 +23,7 @@ class Artist
   end
 
   def self.song_count
-    artist.songs.count
+    name.songs.count
   end
 
 end
