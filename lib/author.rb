@@ -17,10 +17,10 @@ class Author
     @posts << post
   end
 
-  def self.songs
-    @songs
+  def self.posts
+    @posts
   end
-  
+
   def self.post_count
     self.post.all.count
   end
