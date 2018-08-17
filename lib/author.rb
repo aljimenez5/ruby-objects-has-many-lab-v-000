@@ -18,7 +18,7 @@ class Author
   end
 
   def self.post_count
-    self.author.songs.count
+    self.songs.count
   end
 
 end
