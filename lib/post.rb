@@ -16,6 +16,8 @@ class Post
     title.author = self
   end
 
+  def author_name
+
 
 
 end
