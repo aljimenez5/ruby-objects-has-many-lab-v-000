@@ -13,7 +13,8 @@ class Song
   end
 
   def artist_name
-    self.artist.name
+    self.artist.name if self.artist.instance_variable_defined?("@name")
+  end
   end
 
 
