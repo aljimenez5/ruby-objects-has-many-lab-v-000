@@ -1,12 +1,12 @@
 class Author
-  attr_accessor :name, :artist, :title, :songs
+  attr_accessor :name, :author, :title
 
   def initialize(name)
     @name = name
     @posts = []
   end
 
-  def add_song(song)
+  def add_post(post)
     song.artist = self
     @songs << song
   end
