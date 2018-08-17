@@ -12,7 +12,10 @@ class Post
     @@all
   end
 
-  def
+  def author
+    title.author = self
+  end
+
 
 
 end
