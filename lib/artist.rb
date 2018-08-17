@@ -23,7 +23,7 @@ class Artist
   end
 
   def self.song_count
-    artist_name.instance_variable_get(:@songs)
+    artist_name.instance_variable_get(:@songs).length
   end
 
 end
