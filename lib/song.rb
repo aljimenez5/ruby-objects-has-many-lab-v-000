@@ -15,7 +15,5 @@ class Song
   def artist_name
     self.artist.name if self.artist.instance_variable_defined?("@name")
   end
-  end
-
 
 end
